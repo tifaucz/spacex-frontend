@@ -1005,16 +1005,16 @@ export type Ship = {
   year_built?: Maybe<Scalars['Int']['output']>;
 };
 
-export type ShipLocation = {
-  __typename?: 'ShipLocation';
-  latitude?: Maybe<Scalars['Float']['output']>;
-  longitude?: Maybe<Scalars['Float']['output']>;
-};
-
 export type ShipMission = {
   __typename?: 'ShipMission';
   flight?: Maybe<Scalars['String']['output']>;
   name?: Maybe<Scalars['String']['output']>;
+};
+
+export type ShipLocation = {
+  __typename?: 'ShipLocation';
+  latitude?: Maybe<Scalars['Float']['output']>;
+  longitude?: Maybe<Scalars['Float']['output']>;
 };
 
 export type ShipsFind = {
