@@ -3,9 +3,24 @@ import gql from "graphql-tag";
 const ships = gql`
   query ships {
     ships {
-    id
-    class
-    name
+      id
+      name
+      image
+      class
+      active
+      abs
+      home_port
+      imo
+      missions {
+        name
+        flight
+      }
+      mmsi
+      model
+      roles
+      status
+      type
+      year_built
     }
   }
 `;
