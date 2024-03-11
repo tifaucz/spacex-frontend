@@ -6,7 +6,7 @@
 SpaceX Fleet Watchlist is based on the following api [https://spacex-production.up.railway.app/](https://spacex-production.up.railway.app/). 
 
 By default it should work locally with this backend, running on localhost:3000 : [https://github.com/tifaucz/spacex-backend](https://github.com/tifaucz/spacex-backend)
-The api source can be changed in the settings:
+The api source can be changed in the settings, you can add more by editing the variables on React's context file.
 
 ![image](https://github.com/tifaucz/spacex-frontend/assets/15833226/0f9af285-6ce6-48cf-ad32-4896e9f5fb90)
 
